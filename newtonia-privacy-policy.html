@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Newtonia</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f7f5f0;
+      --ink: #1a1814;
+      --muted: #6b6760;
+      --accent: #c8562a;
+      --rule: #ddd9d0;
+      --max: 680px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      font-size: 17px;
+      line-height: 1.75;
+      padding: 0 24px;
+    }
+
+    header {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 72px 0 48px;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .wordmark {
+      font-family: 'DM Serif Display', serif;
+      font-size: 13px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 32px;
+    }
+
+    h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2.2rem, 5vw, 3.2rem);
+      font-weight: 400;
+      line-height: 1.15;
+      letter-spacing: -0.01em;
+    }
+
+    h1 em {
+      font-style: italic;
+      color: var(--accent);
+    }
+
+    .meta {
+      margin-top: 20px;
+      font-size: 14px;
+      color: var(--muted);
+      letter-spacing: 0.03em;
+    }
+
+    main {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 56px 0 96px;
+    }
+
+    .intro {
+      font-size: 18px;
+      line-height: 1.7;
+      color: var(--muted);
+      padding-bottom: 40px;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 48px;
+    }
+
+    section {
+      margin-bottom: 48px;
+    }
+
+    h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.35rem;
+      font-weight: 400;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+    }
+
+    h2::before {
+      content: attr(data-n);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      color: var(--accent);
+      text-transform: uppercase;
+      flex-shrink: 0;
+    }
+
+    p + p { margin-top: 14px; }
+
+    ul {
+      margin: 12px 0 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    ul li {
+      padding: 6px 0 6px 20px;
+      position: relative;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    ul li:first-child { border-top: 1px solid var(--rule); }
+
+    ul li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-size: 13px;
+    }
+
+    a {
+      color: var(--ink);
+      text-decoration-color: var(--accent);
+      text-underline-offset: 3px;
+    }
+
+    a:hover { color: var(--accent); }
+
+    footer {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 32px 0 64px;
+      border-top: 1px solid var(--rule);
+      font-size: 13px;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="wordmark">Newtonia</div>
+    <h1>Privacy <em>Policy</em></h1>
+    <p class="meta">Effective date: March 17, 2026 &nbsp;·&nbsp; Last updated: March 17, 2026</p>
+  </header>
+
+  <main>
+
+    <p class="intro">
+      Metonymous ("we", "us", or "our") is committed to being transparent about the data we collect and how we use it. This policy explains our practices for the Newtonia web and mobile applications.
+    </p>
+
+    <section>
+      <h2 data-n="01">Information We Collect</h2>
+      <p>We collect limited, non-personal data to understand how Newtonia is used and to improve the experience. Specifically, we collect:</p>
+      <ul>
+        <li>Anonymised usage events (e.g. features accessed, session duration, navigation patterns)</li>
+        <li>Device and platform information (e.g. operating system, app version, screen size)</li>
+        <li>Crash reports and performance diagnostics</li>
+      </ul>
+      <p>We do <strong>not</strong> collect your name, email address, payment information, precise location, or any other personally identifiable information.</p>
+    </section>
+
+    <section>
+      <h2 data-n="02">How We Use This Information</h2>
+      <p>The analytics data we collect is used solely to:</p>
+      <ul>
+        <li>Understand which features are used and how</li>
+        <li>Identify and fix bugs or performance issues</li>
+        <li>Prioritise future product improvements</li>
+      </ul>
+      <p>We do not use this data to serve advertisements, build user profiles, or sell to third parties.</p>
+    </section>
+
+    <section>
+      <h2 data-n="03">Third-Party Services</h2>
+      <p>We may use third-party analytics providers (such as analytics SDKs) to help process usage data on our behalf. These providers are contractually required to handle data securely and only for the purposes we specify. We do not authorise them to use your data for their own purposes.</p>
+    </section>
+
+    <section>
+      <h2 data-n="04">Data Retention</h2>
+      <p>Aggregated analytics data is retained for as long as it is useful for product development purposes. Because this data is anonymised and not linked to individuals, it cannot be deleted on a per-user basis.</p>
+    </section>
+
+    <section>
+      <h2 data-n="05">Children's Privacy</h2>
+      <p>Newtonia is not directed at children under the age of 13. We do not knowingly collect any data from children. If you believe a child has provided us with data, please contact us and we will take appropriate steps.</p>
+    </section>
+
+    <section>
+      <h2 data-n="06">Changes to This Policy</h2>
+      <p>We may update this privacy policy from time to time. When we do, we will revise the "last updated" date at the top of this page. We encourage you to review this policy periodically. Continued use of Newtonia after any changes constitutes acceptance of the revised policy.</p>
+    </section>
+
+    <section>
+      <h2 data-n="07">Contact Us</h2>
+      <p>If you have any questions or concerns about this privacy policy, please reach out to us at <a href="mailto:admin@metonymous.com">admin@metonymous.com</a>.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <span>© 2026 Newtonia · Metonymous</span>
+    <span><a href="mailto:admin@metonymous.com">admin@metonymous.com</a></span>
+  </footer>
+
+</body>
+</html>
